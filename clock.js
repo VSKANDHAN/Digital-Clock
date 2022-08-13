@@ -64,3 +64,18 @@ function currenttime24(flag) {
     setInterval(currenttime24, 1000)
 
 }
+
+function blink() {
+
+    let random1 = Math.floor(Math.random() * 255)
+    let random2 = Math.floor(Math.random() * 255)
+    let random3 = Math.floor(Math.random() * 255)
+
+    let rbg = `rgb(${random1},${random2},${random3})`
+    document.getElementById('clock').style.backgroundColor = rbg
+    document.getElementById('clock1').style.backgroundColor = rbg
+
+    setInterval(blink, 2000)
+
+
+}
