@@ -73,6 +73,21 @@ function blink() {
 
     let rbg = `rgb(${random1},${random2},${random3})`
     document.getElementById('clock').style.backgroundColor = rbg
+
+
+    setInterval(blink, 2000)
+
+
+}
+
+function blink1() {
+
+    let random1 = Math.floor(Math.random() * 255)
+    let random2 = Math.floor(Math.random() * 255)
+    let random3 = Math.floor(Math.random() * 255)
+
+    let rbg = `rgb(${random3},${random2},${random1})`
+
     document.getElementById('clock1').style.backgroundColor = rbg
 
     setInterval(blink, 2000)
