@@ -75,7 +75,7 @@ function blink() {
     document.getElementById('clock').style.backgroundColor = rbg
 
 
-    setInterval(blink, 2000)
+    setInterval(blink, 1000)
 
 
 }
@@ -90,7 +90,7 @@ function blink1() {
 
     document.getElementById('clock1').style.backgroundColor = rbg
 
-    setInterval(blink, 2000)
+    setInterval(blink, 1000)
 
 
 }
